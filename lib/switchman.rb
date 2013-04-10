@@ -1,5 +1,6 @@
 require "switchman/version"
+require "switchman/language"
+require "switchman/redirector"
 
 module Switchman
-  # Your code goes here...
 end
