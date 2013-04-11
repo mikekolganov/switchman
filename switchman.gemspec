@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Switchman::VERSION
   spec.authors       = ["Mike Kolganov"]
   spec.email         = ["mike.kolganov@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "Rack middleware that provides simple redirection to language URI prefix"
+  spec.summary       = %q{Rack middleware that redirects user from site root to language prefix. Preferred language of user is determined by HTTP header "Accept-Language". Otherwise first configured language will be used for redirecting.}
+  spec.homepage      = "https://github.com/mikekolganov/switchman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
