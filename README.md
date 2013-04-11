@@ -1,6 +1,10 @@
 # Switchman
 
-Rack middleware that redirects user from site root to language prefix. Preferred language of user is determined by HTTP header "Accept-Language". Otherwise first configured language will be used for redirecting.
+![railroad](https://f.cloud.github.com/assets/557480/369376/6b31cda6-a2d6-11e2-9c13-faaac738b309.jpg)
+
+Switchman for your i18n railroad.
+
+This is a Rack middleware that redirects user from site root to language prefix. Preferred language of user is determined by HTTP header "Accept-Language". Otherwise first configured language will be used for redirecting.
 
 ## Installation
 
@@ -48,3 +52,5 @@ Add to your sinatra application:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+6. ???
+7. PROFIT!!!
