@@ -1,6 +1,6 @@
 require "switchman/version"
-require "switchman/language"
-require "switchman/redirector"
+require "switchman/middleware"
+require "switchman/parser"
 
 module Switchman
 end

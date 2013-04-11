@@ -1,5 +1,5 @@
 require 'rack/test'
 require 'switchman'
 
-describe Switchman::Redirector do
+describe Switchman::Middleware do
 end
