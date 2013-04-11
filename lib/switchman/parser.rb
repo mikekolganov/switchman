@@ -7,7 +7,7 @@ module Switchman
     end
 
     def user_preferred_languages
-      @user_preferred_languages ||= header.gsub(/\s+/, '').split(/,/).collect do |l|
+      header.gsub(/\s+/, '').split(/,/).collect do |l|
         l += ';q=1.0' unless l =~ /;q=\d+\.\d+$/
           l.split(';q=')
       end.sort do |x,y|
