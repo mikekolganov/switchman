@@ -36,7 +36,7 @@ Add to your application.rb:
     config.middleware.insert_after(
       Rails::Rack::Logger,
       Switchman::Middleware,
-      languages: %(en ru), except: %w(admin)
+      languages: %w(en ru), except: %w(admin)
     )
 
 ### Sinatra
